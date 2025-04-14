@@ -1,0 +1,210 @@
+
+
+
+
+#header-background{
+    background-image:url(pics/67acce11d89836c3f8ffb7ad_Hero\ image.jpg);
+    height:850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header-container{
+    background-color: #122c24;
+}
+
+#video-background{
+
+    background-image:url(https://cdn.prod.website-files.com/67acce11d89836c3f8ffb533/67acce11d89836c3f8ffb73f_Vedion%20Img.webp);
+  height:500px;
+  width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+#col-background{
+
+    background-image:url(https://cdn.prod.website-files.com/67acce11d89836c3f8ffb533/67acce11d89836c3f8ffb741_Best%20Choice.webp   );
+ height:650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//* css part java *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+/* 
+#s1{overflow: hidden;
+    display: block;   
+}
+
+
+#s1{
+transition: 1s;
+}
+
+#s1:hover #s2{
+   transform:translatey(-100%);
+  
+}
+
+#s2{
+    display: block;
+    transition: 1s;
+}
+
+
+#s1:before{
+    position: absolute;
+   content: attr(data-link-alt);
+   top:100%;
+  opacity: 0;
+  transition: 1s;
+}
+
+
+#s1:hover:before{
+    top:0;
+    opacity:1;
+}
+ */
+
+.counter:not(:last-child)::before{
+
+content: '';
+transform: translatey(-50%);
+
+}
+
+
+
+
+
+
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  */
+@keyframes slide {
+    from{
+            transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+/*  */    /*  */
+.logos{
+    white-space: nowrap;
+    overflow: hidden;
+    padding:60px 0px;
+    background:white;
+}
+.logos-slide{
+ display: inline-block;
+    animation: 15s slide  infinite linear;
+}
+.logos-slide img{
+    height:50px;
+    margin: 0px 40px;
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@keyframes appear {
+    from{
+           opacity:0;
+           scale:0.5;
+    }
+    to{
+            opasity:1;
+            scale:1;
+    }
+}
+
+
+.bloke{
+    animation: appear 1s linear;
+} */
+
+
+
+
+
